@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sentiment Analysis</title>
+	<style>
+		body{
+			background-color: darkslategray;
+			color:white;
+		}
+		.text {
+			width:500px;
+			height: 50px;
+			border-radius: 15px ;
+			color:tomato;
+			font-weight: bold;
+		}
+		.submit{
+			width: 200px;
+			height: 30px;
+			color:darkslategray;
+			background-color: white;
+			border-radius: 15px ;
+			font-weight: bold;
+		}
+		table{
+			background-color: lightgray;
+			width: 500px;
+			height: 100px;
+		}
+		h2{
+			
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h2 align="center">Sentiment Analysis</h2>
+	<hr/>
+	<form method='GET' action="http://127.0.0.1:5000/prediction"> 
+		
+		<table align='center' border="0" >
+			<tr>
+				<td>
+					<input type="text" class='text' name="text_data" placeholder="Enter text to find its sentiment.....">
+				</td>
+			</tr>
+			<tr align="center">
+				<td>
+					<input class='submit' type="submit" name="submit" text='Find out ...'>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
