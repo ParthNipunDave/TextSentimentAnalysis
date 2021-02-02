@@ -1,0 +1,12 @@
+flask
+pandas
+numpy
+seaborn
+matplotlib
+tensorflow
+nltk
+re
+keras
+time
+datetime
+gunicorn	
