@@ -1,0 +1,10 @@
+flask==1.1.2
+pandas==1.0.5
+numpy==1.17.0
+seaborn==0.10.1
+matplotlib==3.2.2
+tensorflow==2.3.0
+nltk==3.5
+re
+keras==2.4.3
+gunicorn==20.0.4
