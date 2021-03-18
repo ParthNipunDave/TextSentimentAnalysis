@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn app:Deploy_Sentiment_Analysis
